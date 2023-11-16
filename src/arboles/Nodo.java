@@ -10,9 +10,9 @@ package arboles;
  */
 public class Nodo {
     
-    private int id;
-    private Nodo hijoizq;
-    private Nodo hijoder;
+    private int id; //referencia del arbol
+    private Nodo hijoizq; //referencia a una rama
+    private Nodo hijoder;// referencia a otra rama
     
     public Nodo(int id){
         this.id = id;
